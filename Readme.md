@@ -8,7 +8,7 @@ devtools::install_github("MarioniLab/geneBasisR")
 devtools::install_github("wesm/feather/R")
 ```
 
-### Procedure:
+### Experiments:
 1. Raw csv converted to feather format for quick read access:
 ```R
 library(feather)

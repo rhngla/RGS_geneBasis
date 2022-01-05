@@ -1,8 +1,5 @@
 
 ### Environment:
-`Tidyverse` is available through Base.
-
-Installed R packages:
 ```R
 
 install.packages(c("usethis","devtools","remotes","tidyverse"))

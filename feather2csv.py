@@ -7,7 +7,7 @@ parser.add_argument("--fname", default='', type=str, help="file name, without ex
 
 
 def main(fname):
-    df = feather.read(f'{fname}.feather')
+    df = feather.read_dataframe(f'{fname}.feather')
     df.to_csv(f'{fname}.csv', index=False)
     return
 
